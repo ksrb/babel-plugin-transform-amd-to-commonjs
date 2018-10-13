@@ -1,4 +1,5 @@
 import main from '../index';
+import cesium from 'cesium';
 
 describe('Main module', () => {
   it('has a message', () => {

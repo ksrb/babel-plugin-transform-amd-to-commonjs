@@ -21,7 +21,8 @@ module.exports = {
   resolve: {
     modules: [path.resolve('./more-modules'), 'node_modules'],
     alias: {
-      'module-alias': 'aliased-module'
+      'module-alias': 'aliased-module',
+      'cesium': path.resolve(process.cwd(), './node_modules/cesium/Source/Cesium.js'),
     }
   }
 };
